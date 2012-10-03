@@ -68,22 +68,14 @@ body {
 	color: #de6e27;
 	text-decoration: none;
 
-	-webkit-transition: color .15s ease;
-	   -moz-transition: color .15s ease;
-	    -ms-transition: color .15s ease;
-	     -o-transition: color .15s ease;
-	        transition: color .15s ease;
 }
 	.reveal a:not(.image):hover {
 		text-shadow: none;
 		border: none;
 		border-radius: 2px;
+		color: #eeeeee;
 	}
 
-.reveal .roll span:after {
-	color: #fff;
-	background: darkblue;
-}
 
 
 /*********************************************
@@ -124,7 +116,7 @@ body {
 	color: black;
 }
 	.reveal .controls a.enabled {
-		color: darkblue;
+		color: #eeeeee;
 		opacity: 1;
 		text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 	}
